@@ -1,0 +1,707 @@
+<html>
+<head>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css"/>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/road_stats.css">
+</head>
+<body style="background-color: #ffffff !important;">
+
+<!--Header-->
+  <header>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+<!-- <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffdc17;"> -->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Road_website.html">
+        <img src="Images/logo-no-background.png" style="display: inline-block; width: 200px;">
+        <span style="display: inline-block;"></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="case_study.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="faq.html">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="trafficmap.html">Traffic Map</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="road_stats.html">Road Statistics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact_us.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about_us.html">About Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-secondary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<!--Header-->
+
+<main class="flex-shrink-0">
+  <div class="container">
+    <h1 class="mt-5">Road Statictics </h1>
+    <p>Data and statistics about the vehicle miles travelled by vehicle type, road category and region.
+    </p>
+    <p>Road traffic statistics provide estimates of the vehicle miles travelled each year in Great
+      Britain by vehicle type, road category and region. We release both quarterly and annual estimates.
+      To monitor the use of the transport system during the coronavirus (COVID-19) pandemic, daily traffic trends are published weekly.</p>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <button class="nav-link active" data-bs-toggle="tab" id="col-tab" type="button"
+        data-bs-target="#col" role="tab" aria-controls="col" aria-selected="true">Collision and Casualties</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" id="uk-tab" type="button"
+        data-bs-target="#uk" role="tab" aria-controls="uk" aria-selected="true">Collision</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" id="time-tab" type="button"
+        data-bs-target="#time" role="tab" aria-controls="time" aria-selected="true">Casualties</button>
+      </li>
+
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" id="take-tab" type="button"
+        data-bs-target="#take" role="tab" aria-controls="take" aria-selected="true">Measurements to take</button>
+      </li>
+    </ul>
+      <div class="tab-content" id="myTabControl">
+        <div class="tab-pane fade show active" role="tabpanel" id="col" aria-labelledby="col-tab">
+          <div class="mt-3">
+            <h2><b>Collisions and Casualties</b></h2>
+            <p>Subheading</p>
+          </div>
+          <p>Write here</p>
+        </div>
+      </div>
+      <div class="tab-content" id="myTabControl">
+        <div class="tab-pane fade show" role="tabpanel" id="uk" aria-labelledby="uk-tab">
+          <div class="mt-3">
+          <h2><b>Reported road collision rates by severity, region and country, United Kingdom, five years up to 2021
+            </b>
+          </h2>
+          <p>Annual road casualty statistics are published twice each year. Provisional results are published in May for the first release of key statistics, and final detailed statistics are released in September. In-year estimates, providing provisional figures for the first half of the year, are usually published in November.
+
+            Estimates of drink-drive collisions and casualties are published separately, now annually in July.
+
+            The latest publications are listed below. Previous annual, provisional and drink-drive road casualty statistics are available.</p>
+          <div id="chart_div" style="width: 900px; height: 500px;"></div>
+          <div id="piechart_3d" style="width: 1500px; height: 500px;"></div>
+        </div>
+        </div>
+      </div>
+      <div class="tab-content" id="myTabControl">
+        <div class="tab-pane fade show" role="tabpanel" id="time" aria-labelledby="time-tab">
+            <div class="mt-3">
+              <h2><b>Reported road casualties Great Britain: older drivers factsheet 2020</b>
+              </h2>
+              <p>This factsheet gives key statistics for older car drivers (aged 70 and over) involved in police reported road accidents involving personal injury in Great Britain up to 2020. Older car drivers are a notable set of road users because of the ageing population and also the increase in older driving licence holders. The factsheet examines the main trends on reported road collisions involving at least one older car driver and the casualties involved in these collisions.
+
+                ‘Any age car drivers’ include drivers with an unknown age. Unless otherwise stated, figures for drivers relate to car drivers only, and older road users are those aged 70 and over.</p>
+                <h3> <b>Older car drivers on the roads</b> </h3>
+                <h4>Licensed drivers</h4>
+                <p>
+                  <ul>
+                    <li>In 2020, there were 5.6 million older people with a full driving licence in Great Britain. This accounted for around 14% of all full car licence holders (Chart 1).</li>
+                    <li>Between 2016 and 2020, older people with a full driving licence increased both in licence numbers (23.6% from 4.5 to 5.6 million) and as a percentage of all people with full driving licences (1.9 percentage points from 11.7 to 13.6).</li>
+                    <li>In the same period, the older population rose by 12% from 8.0 million to 8.9 million, whilst the percentage of older people with a full driving licence increased by 6 percentage points from 57% to 62%.</li>
+                    <li>An additional 17,986 older people held a provisional driving licence in 2020.</li>
+                  </ul>
+                </p>
+                  <h4><b>Chart 1: Number of older people (millions) with a full driving licence and as a percentage of all people with a driving licence (DVLA), 2016 to 2020</b></h4>
+
+
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <div id="barchart_values" style="width: 500px; height: 500px;"></div>
+                        </div>
+                        <div class="col">
+                          <div id="barchart_valuess" style="width: 500px; height: 500px;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  <p>Female car drivers make up a smaller proportion of total licence holders compared to male drivers, with a greater difference seen for older drivers (44% for females and 56% for males) relative to all drivers (Table 1).</p>
+                  <p><b>Table 1: Number and percentage of older car drivers and all car drivers with a full driving licence by sex, 2020</b></p>
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">Sex</th>
+                        <th scope="col">Older</th>
+                        <th scope="col">Older(%)</th>
+                        <th scope="col">All</th>
+                        <th scope="col">All(%)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Female</td>
+                        <td>2.4 million</td>
+                        <td>43.6</td>
+                        <td>19.09 million</td>
+                        <td>46.2</td>
+                      </tr>
+                      <tr>
+                        <td>Male</td>
+                        <td>3.1 million</td>
+                        <td>56.4</td>
+                        <td>22.01 million</td>
+                        <td>53.8</td>
+                      </tr>
+                      <tr>
+                        <td>Total</td>
+                        <td>5.6 million</td>
+                        <td>100.0</td>
+                        <td>41.0 million</td>
+                        <td>100.0</td>
+                      </tr>
+                    </tbody>
+                  </table><br>
+                  <h3><b>Older road user casualty rates by type</b></h3>
+                  <p>Chart 2 shows that older casualty rates are lowest for car or van occupants at 201 passenger and 233 driver casualties per billion miles travelled. The next lowest is bus occupants with 289 casualties per billion miles travelled. The road user types which carry the most risk for older people are motorcyclists, pedal cyclists and pedestrians with casualty rates of 1,833, 1,711 and 1,014 per billion miles travelled respectively.</p>
+                  <h4><b>Chart 2: Older casualty rates per billion miles travelled by road user type, England, 2020</b></h4>
+                  <div id="barchart_values_2" style="width: 1000px; height: 500px;"></div>
+                  <h2><b>Collisions involving older car drivers</b></h2>
+                  <h3><p>Driver involvement in collisions by age</p></h3>
+                  <p>Between ages 17 and 75, the rate of car or van drivers involved in collisions per billio
+                    n vehicle miles travelled falls with driver age from 1,384 (drivers aged 17 to 24) to 211
+                     (drivers aged 71 to 75). The rate increases in age between ages 76 to 85, before rising
+                     sharply to the highest rate (2,014) for any group for drivers 86 and over (Chart 3a).</p>
+
+                    <p> The number of drivers involved in collisions decreases with age (Chart 3b).
+                      However, miles travelled rises as drivers get older, peaking with drivers in their
+                      late-fifties, and then falls (Chart 3c). As a result, the high collision rates for
+                      older drivers is associated with very low mileage and low number of collisions.</p>
+                      <h4><b>Chart 3: Rate of car or van drivers involved in collisions per billion
+                         miles travelled (Chart 3), England, 2020</b></h4>
+                         <div id="chart_div_line"style="width: 1000px; height: 500px;"></div><br>
+
+                  <h3><b>Casualties in cars and vans driven by an older driver</b></h3>
+                  <p>The KSI casualty rate for casualties in cars or vans driven by older drivers rose gradually between 2011 and 2019, though for casualties of all severities the equivalent rate remained broadly stable over this period. In contrast, there were declines in both the KSI and all severities casualty rates for cars or vans driven by drivers of any age.</p>
+                  <p>There was a sharp decrease in all casualty rates during 2020, with a greater fall in rates for casualties in vehicles driven by an older driver compared with rates for casualties in vehicles driven by a driver of any age.</p>
+                  <h4><b>Chart 4: Casualty rate per billion miles by driver age and casualty severity, England, 2011 to 2020</b></h4>
+                  <div id="curve_chart" style="width: 900px; height: 500px"></div>
+
+                  <br>
+                  <h3><b>Feedback</b></h3>
+                  <p>We welcome further feedback on any aspects of the Department’s road safety statistics including content, timing, and format, via the contact details below.</p>
+
+            </div>
+        </div>
+      </div>
+
+      <div class="tab-content" id="myTabControl">
+        <div class="tab-pane fade show" role="tabpanel" id="take" aria-labelledby="take-tab">
+         <div class="mt-3">
+          <h2><b>ROAD SAFETY MEASURES </b></h2>
+          <p>There are many different techniques that can be used in the highway to improve road safety. The following notes
+            describe a variety of measures aimed at controlling vehicle speeds and making conditions safer for both pedestrians
+            and drivers. It is important to bear in mind that not all types of these ideas are appropriate for all site conditions. An
+            idea of costs is also given, however, as described these can vary a lot depending on various features. In most
+            cases it will be necessary to carry out alterations to street lighting to ensure that features are adequately illuminated.
+            The cost of this is excluded from the costs quoted below and it can vary substantially, depending on local conditions,
+            from about £600 for a single lighting column to several thousand pounds for a comprehensive review of the existing
+            street lighting system. </p>
+
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">Photo</th>
+                  <th scope="col">Description</th>
+
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+
+                  <td><img src="Images/1.PNG" alt=""></td>
+                  <td>
+                    <b>Speed Table</b>
+                    These take the form of a raised plateaux set across the road. They achieve significant speed
+                    reduction and also make it easier and safer for pedestrians to cross the road on the top of the
+                    table where speeds are at their lowest.
+                    Speed tables can cause a degree of noticeable traffic noise where there is a regular
+                    presence of certain types of goods vehicles and vehicles with trailers. Whilst such situations
+                    are relatively few, special consideration needs to be given to their siting and also the chosen
+                    profile of a speed table can have an effect on such matters.
+                    <b> Cost (£)</b>
+                    Dependant upon site constraints and appropriate specification for a particular site, the cost of
+                    speed tables (usually including specific drainage facilities and adjusted surrounding footway
+                    levels) can vary dramatically from £3,000 to £30,000 where a table covers a whole junction.
+                    A general guideline cost would be in the region of £8,000. However, it should be noted that
+                    such traffic calming techniques are best adopted in the form of a series where speeds are
+                    contained over a length of road rather than at a single point.
+
+                  </td>
+
+                </tr>
+                <tr>
+                  <td><img src="Images/2.PNG" alt=""></td>
+                  <td>
+                    <b> Speed Cushions</b>
+                    These are similar to the speed table but take the form of small plateaux with a gap between
+                    them. Whilst there are not as effective a speed reducing device as a speed table, speed
+                    cushions allow wider vehicles to straddle them making it easier for buses and emergency
+                    service appliances to pass along a route and still reduce the speed of the vast majority of
+                    traffic.
+                    <b> Cost (£)</b>
+                    For a set of 2 cushions would be approximately £2,000. However, it should be noted that
+                    such traffic calming techniques are best adopted in the form of a series where speeds are
+                    contained over a length of road rather than at a single point.
+                  </td>
+
+                </tr>
+                <tr>
+                  <td><img src="Images/3.PNG" alt=""></td>
+                  <td>
+                    <b>Footway Build-outs</b>
+                    This is usually where the footway is built out into the carriageway to provide a better view
+                    point for pedestrians wanting to cross the road. It is particularly beneficial near parked cars
+                    (see sheltered parking) but can also be used as part of a chicane system (see chicanes and
+                    priority narrowing).
+                    Buildouts can be difficult to achieve where there are many private driveways restricting their
+                    positioning.
+                    <b> Cost (£)</b>
+                    A build-out is normally furnished with bollards and dropped kerbs/tactile facility and usually
+                    cost in the region of £4,000.
+                  </td>
+                </tr>
+
+                <tr>
+                  <td><img src="Images/4.PNG" alt=""></td>
+                  <td>
+                    <b>Priority Narrowing</b>
+                    This involves introducing a road narrowing which effectively creates a one-way priority
+                    system at that point. The speed reducing effect of such a measure would rely upon the
+                    regular presence of oncoming vehicles in order to ensure that traffic without priority has to
+                    periodically give way and consequently reduce its speed.
+                    Measures such as these can be difficult to achieve as they rely heavily on good visibility from
+                    approaching drivers. The presence of private drives and side roads also restrict the
+                    opportunities where priority narrowings can be placed.
+                    <b> Cost (£)</b>
+                    A single priority narrowing with associated signing and road markings may cost around
+                    £6,000.
+                  </td>
+                </tr>
+
+                <tr>
+                  <td><img src="Images/5.PNG" alt=""></td>
+                  <td>
+                    <b>Chicane</b>
+                    This can take the form of a set or various sets of carriageway narrowings. The narrowing(s)
+                    can allow two-way traffic flow or can give priority to drivers travelling in a certain direction
+                    (see priority narrowing). The aim of chicanes is to break up the traffic flow and so reduce
+                    vehicle speeds.
+                    Measures such as these can be difficult to achieve as they rely heavily on good visibility from
+                    approaching drivers. The presence of private drives and side roads also restricts
+                    opportunities where chicanes can be placed.
+                    <b> Cost (£)</b>
+                    A chicane incorporating two narrowings with associated signing and road markings could
+                    cost £12,000.
+                  </td>
+                </tr>
+
+                <tr>
+                  <td><img src="Images/6.PNG" alt=""></td>
+                  <td>
+                    <b>Sheltered Parking</b>
+                    This normally involves the introduction of footway or verge build-outs at the end of existing
+                    sections of on–street parking. The parking would be defined by a white line or change in
+                    carriageway surface. Whilst visually narrowing the appearance of the road, sheltered parking
+                    offers a degree of protection to parked vehicles and the build-outs can provide safer points
+                    for pedestrians to cross the road near to the parked vehicles.
+                    Buildouts can be difficult to achieve where there are many private driveways restricting their
+                    position.
+                    <b> Cost (£)</b>
+                    A section of sheltered parking, including bollards, signs and road markings, could cost
+                    £10,000.
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+         </div>
+        </div>
+      </div>
+  </div>
+
+
+
+</main>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5 p-4">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fa-solid fa-gem"></i>ROAD SAFETY
+          </h6>
+          <p>
+            We are here to provide you insights on road accidents and its precautions.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="case_study.html" class="text-reset">Case Studies</a>
+          </p>
+          <p>
+            <a href="faq.html" class="text-reset">FAQs</a>
+          </p>
+          <p>
+            <a href="road_stats.html" class="text-reset">Road Statistics</a>
+          </p>
+          <p>
+            <a href="contact_us.html" class="text-reset">Contact Us</a>
+          </p>
+          <p>
+            <a href="about_us.html" class="text-reset">About Us</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase fw-bold mb-4">
+          Connect
+        </h6>
+        <p>
+          <i class="fa fa-twitter me-3"></i>Twitter
+        </p>
+        <p>
+          <i class="fa fa-instagram me-3"></i>Instagram
+        </p>
+        <p>
+          <i class="fa fa-facebook-f me-3"></i>Facebook
+        </p>
+
+      </div>
+      <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fa fa-home me-3"></i> LONDON, UK</p>
+          <p>
+            <i class="fa fa-envelope me-3"></i>
+            roadsafety@gmail.com
+          </p>
+          <p><i class="fa fa-phone me-3"></i> 020 8223 3000</p>
+          <p><i class="fa fa-print me-3"></i>020 8223 3000</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+
+
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="#">Roadsafety.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+<!-- JavaScript Bundle with Popper -->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+<script>
+  function initMap() {
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 13,
+    center: { lat: 51.509865, lng: -0.118092 },
+  });
+  const trafficLayer = new google.maps.TrafficLayer();
+
+  trafficLayer.setMap(map);
+}
+
+window.initMap = initMap;
+</script>
+
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+defer
+></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.min.js"></script>
+
+<script type="text/javascript">
+  google.charts.load("current", {packages:["corechart"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Accidents', 'Counts'],
+      ['North East',     3024],
+      ['North West',      10061],
+      ['Yorkshire and The Humber',  9083],
+      ['East Midlands', 7332],
+      ['London',    7952],
+      ['South East',    9232],
+      ['South West',    23139],
+      ['England',    15612],
+      ['Wales',    8449],
+      ['Scotland',    3301],
+      ['Great Britain',    4704],
+    ]);
+
+    var options = {
+      title: 'Accidents in Uk',
+      is3D: true,
+      width:1300,
+      height:500,
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+    chart.draw(data, options);
+  }
+</script>
+
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawVisualization);
+
+  function drawVisualization() {
+    // Some raw data (not necessarily accurate)
+    var data = google.visualization.arrayToDataTable([
+      ['Year', 'North East', 'North West', 'Yorkshire and the Humber', 'East Midlands', 'West Midlands', 'East of England','London','South East','South West','England','Wales','Scotland','Great Britain','Northern Ireland','United Kingdom'],
+      ['2017',  4089,         13166,        11348,                      8734,           10978,          12480,            27060,   20403,       10057,       118315,   4554,   7113,      129982,         6081,              136063],
+      ['2018',  3899,         12701,        10526,                      8603,           9907,           11762,            25662,   19164,       9792,       112016,   4214,   6405,      122635,         5749,              128384],
+      ['2019',  3809,         11474,        9684,                      8381,           9715,           10969,            25338,   18372,       9793,       107535,   4317,   5684,      117536,         5676,              123212],
+      ['2020',  2861,         8588,        7674,                      6554,           7113,           8583,            21013,   14629,       7474,       84489,   2874,   3836,      91199,         4223,              95422],
+      ['2021',  3024,         10061,        9083,                      7332,           7952,           9232,            23139,   15612,       8449,       93884,   3301,   3902,      101087,         4704,              102791],
+    ]);
+
+    var options = {
+      title : 'Accidents Per Year',
+      vAxis: {title: 'Count'},
+      hAxis: {title: 'Month'},
+      seriesType: 'bars',
+      series: {15: {type: 'line'}},
+      width:1000,
+      height:500,
+    };
+
+    var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+    chart.draw(data, options);
+  }
+</script>
+
+<script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ["Year", "Numbers", { role: "style" } ],
+        ["2016", 11.7, "blue"],
+        ["2017", 12.3, "lightblue"],
+        ["2018", 12.9, "blue"],
+        ["2019", 13.3, "lightblue"],
+        ["2020", 13.6, "blue"]
+      ]);
+
+      var view = new google.visualization.DataView(data);
+      view.setColumns([0, 1,
+                       { calc: "stringify",
+                         sourceColumn: 1,
+                         type: "string",
+                         role: "annotation" },
+                       2]);
+
+      var options = {
+        title: "Older People with full driving license as a% of all people with a full driving license",
+        width: 500,
+        height: 500,
+        bar: {groupWidth: "95%"},
+        legend: { position: "none" },
+      };
+      var chart = new google.visualization.ColumnChart(document.getElementById("barchart_valuess"));
+      chart.draw(view, options);
+  }
+</script>
+
+<script type="text/javascript">
+    google.charts.load("current", {packages:["corechart"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ["Year", "Numbers", { role: "style" } ],
+        ["2016", 4.5, "blue"],
+        ["2017", 4.9, "lightblue"],
+        ["2018", 5.2, "blue"],
+        ["2019", 5.5, "lightblue"],
+        ["2020", 5.6, "blue"]
+      ]);
+
+      var view = new google.visualization.DataView(data);
+      view.setColumns([0, 1,
+                       { calc: "stringify",
+                         sourceColumn: 1,
+                         type: "string",
+                         role: "annotation" },
+                       2]);
+
+      var options = {
+        title: "Number of older people(millions) with full driving license",
+        width: 500,
+        height: 500,
+        bar: {groupWidth: "95%"},
+        legend: { position: "none" },
+      };
+      var chart = new google.visualization.ColumnChart(document.getElementById("barchart_values"));
+      chart.draw(view, options);
+  }
+</script>
+
+<script type="text/javascript">
+  google.charts.load("current", {packages:["corechart"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ["Vehicle", "Count", { role: "style" } ],
+      ["Car", 201, '#23395d'],
+      ["Van", 231, '#23395d'],
+      ["Bus", 289, '#23395d'],
+      ["Pedestrians", 1041, '#23395d'],
+      ["Pedal Cyclist", 1711, '#23395d'],
+      ["Motor Cyclist", 1833, '#23395d']
+    ]);
+
+    var view = new google.visualization.DataView(data);
+    view.setColumns([0, 1,
+                     { calc: "stringify",
+                       sourceColumn: 1,
+                       type: "string",
+                       role: "annotation" },
+                     2]);
+
+    var options = {
+      width: 1000,
+      height: 500,
+      bar: {groupWidth: "95%"},
+      legend: { position: "none" },
+    };
+    var chart = new google.visualization.ColumnChart(document.getElementById("barchart_values_2"));
+    chart.draw(view, options);
+}
+</script>
+
+<script type="text/javascript">
+  google.charts.load('current', {packages: ['corechart', 'line']});
+google.charts.setOnLoadCallback(drawBackgroundColor);
+
+function drawBackgroundColor() {
+      var data = new google.visualization.DataTable();
+      data.addColumn('number', 'X');
+      data.addColumn('number', 'Number');
+
+      data.addRows([
+        [0, 0],   [1, 10],  [2, 23],  [3, 17],  [4, 18],  [5, 9],
+        [6, 11],  [7, 27],  [8, 33],  [9, 40],  [10, 32], [11, 35],
+        [12, 30], [13, 40], [14, 42], [15, 47], [16, 44], [17, 48],
+        [18, 52], [19, 54], [20, 42], [21, 55], [22, 56], [23, 57],
+        [24, 60], [25, 50], [26, 52], [27, 51], [28, 49], [29, 53],
+        [30, 55], [31, 60], [32, 61], [33, 59], [34, 62], [35, 65],
+        [36, 62], [37, 58], [38, 55], [39, 61], [40, 64], [41, 65],
+        [42, 63], [43, 66], [44, 67], [45, 69], [46, 69], [47, 70],
+        [48, 72], [49, 68], [50, 66], [51, 65], [52, 67], [53, 70],
+        [54, 71], [55, 72], [56, 73], [57, 75], [58, 70], [59, 68],
+        [60, 64], [61, 60], [62, 65], [63, 67], [64, 68], [65, 69],
+        [66, 70], [67, 72], [68, 75], [69, 80]
+      ]);
+
+      var options = {
+        width: 1000,
+      height: 500,
+        backgroundColor: '#f1f8e9'
+      };
+
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div_line'));
+      chart.draw(data, options);
+    }
+</script>
+
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['Year', 'Older Drivers', 'All drivers'],
+      ['2012',  784,      500],
+      ['2013',  674,      290],
+      ['2014',  109,      140],
+      ['2015',  449,      385],
+      ['2016',  899,      400],
+      ['2017',  445,      400],
+      ['2018',  1170,      460],
+      ['2019',  660,       1120],
+      ['2020',  1030,      540]
+    ]);
+
+    var options = {
+      width: 900,
+      height: 500,
+      title: 'KSI(adjusted)',
+      curveType: 'function',
+      legend: { position: 'bottom' }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+    chart.draw(data, options);
+  }
+</script>
+
+</body>
+</html>
